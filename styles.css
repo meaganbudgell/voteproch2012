@@ -1,0 +1,422 @@
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url('templatemo_main.jpg');
+}
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+#mainBlock {
+	background-image: url('templatemo_main.png');
+	position: absolute;
+	top: 160px;
+	left: 150px;
+	height: 490px;
+	width: 1000px;
+}
+#copyright {
+	font-family: "Open Sans", sans-serif;
+	font-size: small;
+	position: absolute;
+	top: 672px;
+	text-align: center;
+	left: 400px;
+	right: 400px;
+}
+#kwicks {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#kwicks li {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	float: left;
+	width: 200px;
+	height: 490px;
+	background: url(slider_bg.png) no-repeat left;
+	margin-right: 5px;
+}
+#kwicks li span.header {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	width: 15px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#kwicks li.active {
+	background: url(slider_bg_hover.png) no-repeat left;
+}
+#kwicks #platformEN span.header {
+	background-image: url('platformEN.png');
+}
+#kwicks #BioEN span.header {
+	background-image: url('bioEN.png');
+}
+#kwicks #home span.header {
+	background-image: url('home.png');
+}
+#kwicks #bioFR span.header {
+	background-image: url('bioFR.png');
+}
+#kwicks #platformFR span.header {
+	background-image: url('platformFR.png');
+}
+#frontpage {
+	background-image: url('frontpage1.jpg');
+	background-position: absolute;
+	width: 600px;
+	height: 500px;
+	margin-left: 170px;
+}
+#frontText {
+	position: absolute;
+	margin-left: -100px;
+	margin-top: 100px;
+}
+#absolute {
+	position: absolute;
+}
+#facebook {
+	position: absolute;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: 100px;
+}
+#facebookText {
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	margin-left: 15px;
+	margin-top: 205px;
+	width: 1000px;
+}
+#frenchfacebooktext{
+		position: absolute;
+	font-family: "Open Sans",sans-serif;
+	margin-left: 15px;
+	margin-top: 220px;
+	font-size:small;
+	width: 1000px;
+
+}
+#flickr {
+	position: absolute;
+	height: 40px;
+	width: 41px;
+	margin-left: -20px;
+	margin-top: 125px;
+}
+#flickrText {
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	width: 1000px;
+	margin-top: 260px;
+	margin-left: 15px;
+}
+#frenchflickrtext{
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	width: 1000px;
+	margin-top: 275px;
+	font-size:small;
+	margin-left: 15px;
+
+}
+#ess {
+	position: absolute;
+	height: 40px;
+	width: 41px;
+	margin-left: -20px;
+	margin-top: 150px;
+}
+#essText {
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	width: 1000px;
+	margin-left: 15px;
+	margin-top: 310px;
+}
+#frenchesstext{
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size:small;
+	width: 1000px;
+	margin-left: 15px;
+	margin-top: 325px;
+
+}
+#messyday {
+	margin-top: 20px;
+	margin-left: 70px;
+	height: 250px;
+}
+#bio1 {
+	position: absolute;
+	width: 1000px;
+	font-family: "Open Sans",sans-serif;
+	font-size: large;
+	margin-top: -240px;
+	margin-left: 250px;
+}
+#bio2 {
+	position: absolute;
+	width: 500px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-top: -205px;
+	margin-left: 250px;
+}
+#bio3 {
+	position: absolute;
+	width: 500px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-top: -165px;
+	margin-left: 250px;
+}
+#bio4 {
+	position: absolute;
+	width: 700px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 0px;
+}
+#bio5 {
+	position: absolute;
+	width: 700px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 55px;
+}
+#bio6 {
+	position: absolute;
+	width: 700px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 95px;
+}
+#bio7 {
+	position: absolute;
+	width: 700px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 140px;
+}
+#bio8{
+		position: absolute;
+	width: 700px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 110px;
+
+}
+#bio9{
+	position: absolute;
+	width: 700px;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 150px;
+
+	
+}
+#platpic {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 560px;
+	height: 250px;
+}
+#plat1 {
+	position: absolute;
+	width: 1000px;
+	font-family: "Open Sans",sans-serif;
+	font-size: x-large;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#plat2 {
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	position: absolute;
+	width: 489px;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+#plat3 {
+	font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 90px;
+	width: 1000px;
+}
+#plat4{
+		font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 170px;
+	width: 1000px;
+
+}
+#plat5{
+		font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 280px;
+	width: 1000px;
+
+}
+#plat6{
+		font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 340px;
+	width: 1000px;
+
+	
+}
+#plat7{
+		position: absolute;
+	width: 1000px;
+	font-family: "Open Sans",sans-serif;
+	font-size: large;
+	margin-left: 100px;
+	margin-top: 10px;
+
+}
+#plat9{
+	
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	position: absolute;
+	width: 489px;
+	margin-left: 70px;
+	margin-top: 35px;
+}
+#plat10{
+	
+	font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 70px;
+	width: 1000px;
+}
+#plat11{
+			font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 300px;
+	width: 1000px;
+
+}
+#plat12{
+	
+		font-family: "Open Sans",sans-serif;
+	font-size: medium;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 365px;
+	width: 1000px;
+
+}
+
+
+#list1 {
+position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 115px;
+	width:450px;
+}
+#list2{
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 190px;
+	width:450px;
+
+}
+#list3
+{
+		position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 300px;
+	width:600px;	
+}
+#list4
+{
+			position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 370px;
+	width:600px;	
+
+}
+#list5{
+	position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 95px;
+	width:450px;
+}
+#list6{
+			position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 320px;
+	width:650px;
+}
+#list7{
+			position: absolute;
+	font-family: "Open Sans",sans-serif;
+	font-size: small;
+	margin-left: 70px;
+	margin-top: 390px;
+	width:650px;	
+
+}
+#platformEN {
+}
+#BioEN {
+}
+#home {
+}
+#bioFR {
+}
+#platformFR {
+}
+#kwicks #platformFR.active {
+	margin-right: 0px;
+}
+#kwicks li ul li {
+	width: auto;
+	height: auto;
+	float: none;
+	margin: 0;
+	padding: 0 0 5px 18px;
+	background: url('templatemo_list.png') scroll 0px 7px no-repeat;
+}
